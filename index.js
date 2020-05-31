@@ -5,7 +5,7 @@ const str = (value = '') => require('laravel-js-str').Str.of(value);
 
 const CollectFiles = (folder, files = []) => {
     const isFolder = to => new File(path.resolve(to)).isDirectory();
-    const CombineFiles = (Files, Segments = []) => [ ...Files, path.join(__dirname, Segments[0], '/', Segments[1])];
+    const CombineFiles = (Files, Segments = []) => [ ...Files, path.join(Mix.paths.rootPath, Segments[0], '/', Segments[1])];
 
     return fs.readdirSync(folder).reduce((list, file, index, original) =>
             isFolder(`${folder}/${file}`)
@@ -44,8 +44,8 @@ class CodeSplit {
             .filter(file => file !== null && typeof file !== "undefined")
             .forEach(
                 file => typeof parameters === 'undefined'
-                    ? via(path.resolve(__dirname, `${folder}/${file}`), path.resolve(__dirname, (`${to}/${file}`)))
-                    : via(path.resolve(__dirname, `${folder}/${file}`), path.resolve(__dirname, (`${to}/${file}`)), ...parameters)
+                    ? via(path.resolve(Mix.paths.rootPath, `${folder}/${file}`), path.resolve(Mix.paths.rootPath, (`${to}/${file}`)))
+                    : via(path.resolve(Mix.paths.rootPath, `${folder}/${file}`), path.resolve(Mix.paths.rootPath, (`${to}/${file}`)), ...parameters)
        );
     }
 };
