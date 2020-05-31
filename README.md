@@ -5,9 +5,28 @@
 <img src="https://img.icons8.com/fluent/28/000000/idea.png"></img> 
 
 
+## <img src="https://img.icons8.com/fluent/38/000000/download.png"/> Installation
+
 ---
 
-# <img src="https://img.icons8.com/fluent/42/000000/ok.png"/> Purpose
+
+### <img src="https://img.icons8.com/color/21/000000/npm.png"/> NPM
+
+```bash
+npm install --save-dev laravel-mix-code-splitter
+```
+
+### <img src="https://img.icons8.com/color/21/000000/clew.png"/> Yarn
+
+```bash
+yarn add laravel-mix-code-splitter --save
+```
+
+
+
+---
+
+## <img src="https://img.icons8.com/fluent/42/000000/ok.png"/> Purpose
 
 ---
 
@@ -25,33 +44,13 @@
 
 ---
 
-### **Definition from google**
+> **Definition from google**
 
 ---
 
 #### _"Modern sites often combine all of their JavaScript into a single, large bundle. ... An alternative to large bundles is code-splitting, which is where JavaScript is split into smaller chunks. This enables sending the minimal code required to provide value upfront, improving page-load times. The rest can be loaded on demand."_
 
 ---
-
-
----
-
-## <img src="https://img.icons8.com/fluent/38/000000/download.png"/> Installation
-
----
-
-
-### <img src="https://img.icons8.com/color/21/000000/npm.png"/> NPM
-
-```bash
-npm install --save-dev laravel-mix-code-splitter
-```
-
-### <img src="https://img.icons8.com/color/21/000000/clew.png"/> Yarn
-
-```bash
-yarn add laravel-mix-code-splitter --save
-```
 
 
 ---
