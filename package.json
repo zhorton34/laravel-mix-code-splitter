@@ -33,6 +33,9 @@
     "split",
     "extension"
   ],
+  "peerDependencies": {
+    "laravel-mix": "^2.1.7"
+  },
   "author": "Zachary Horton",
   "license": "MIT",
   "bugs": {
