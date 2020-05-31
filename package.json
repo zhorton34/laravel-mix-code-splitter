@@ -1,6 +1,6 @@
 {
   "name": "laravel-mix-code-splitter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Laravel Mix Extension Allowing You To Easily Code Split without needing to specify every file",
   "main": "index.js",
   "scripts": {
