@@ -1,9 +1,10 @@
 let fs = require('fs');
 let mix = require('laravel-mix')
 
-const str = (value = '') => require('laravel-js-str').Str.of(value);
 
 const CollectFiles = (folder, files = []) => {
+    const str = (value = '') => require('laravel-js-str').Str.of(value);
+
     const isFolder = to => new File(path.resolve(to)).isDirectory();
     const CombineFiles = (Files, Segments = []) => [ ...Files, path.join(Mix.paths.rootPath, Segments[0], '/', Segments[1])];
 

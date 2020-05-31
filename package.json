@@ -33,6 +33,9 @@
     "split",
     "extension"
   ],
+  "devDependencies": {
+    "laravel-js-str": "^1.0.6"
+  },
   "peerDependencies": {
     "laravel-mix": "^4.0.7"
   },
