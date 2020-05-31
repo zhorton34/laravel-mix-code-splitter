@@ -4,19 +4,20 @@
 [![npm license](https://img.shields.io/npm/l/laravel-mix-code-splitter.svg?color=success)](http://badge.fury.io/js/laravel-mix-code-splitter)
 <img src="https://img.icons8.com/fluent/28/000000/idea.png"></img> 
 
+---
 
-## <img src="https://img.icons8.com/fluent/38/000000/download.png"/> Installation
+# <img src="https://img.icons8.com/fluent/38/000000/download.png"/> Install
 
 ---
 
 
-### <img src="https://img.icons8.com/color/21/000000/npm.png"/> NPM
+### <img src="https://img.icons8.com/color/21/000000/npm.png"/> Via NPM
 
 ```bash
 npm install --save-dev laravel-mix-code-splitter
 ```
 
-### <img src="https://img.icons8.com/color/21/000000/clew.png"/> Yarn
+### <img src="https://img.icons8.com/color/21/000000/clew.png"/> Via Yarn
 
 ```bash
 yarn add laravel-mix-code-splitter --save
