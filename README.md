@@ -45,7 +45,7 @@ yarn add laravel-mix-code-splitter --save
 
 ---
 
-> **Definition from google**
+**Definition from google**
 
 ---
 
@@ -97,7 +97,11 @@ mix.js('resources/js/app.js', 'public/js/app.js')
 
 ---
 
-#### **2. Okay, looks cool enough -- how do we actually utilize our code splits within Laravel __after__ mix does its thing?**
+### **2. Cool, cool -- sound great, how do we actually "code split" within Laravel?**
+
+---
+
+**_After_ mix does its thing, there's _multitudes_ of ways to dynamically load the proper split for the current route ~ here's a simpler implementation I personally like**
 
 ---
 
@@ -105,7 +109,7 @@ mix.js('resources/js/app.js', 'public/js/app.js')
 
 ---
 
-> _Add names to your routes, we'll use resourceful routes to speed the example up_ 
+**_Add names to your routes, we'll use resourceful routes to speed the example up_** 
 
 ---
 
@@ -117,7 +121,7 @@ Route::resource('invoices', 'InvoiceController')->name('invoices');
 
 ---
 
-> _Add this snippet to your layout blade file_
+**_Add snippet to your primary layout blade file_**
 
 ---
 
@@ -187,15 +191,14 @@ Route::resource('invoices', 'InvoiceController')->name('invoices');
 
 ---
 
-### **Code splitting non-js files**
+## **Code splitting non-js files**
 
 ---
 
+
 ```js
 let mix = require('laravel-mix');
-
 require('laravel-mix-code-splitter');
-
 
 mix
 
