@@ -1,0 +1,42 @@
+{
+  "name": "laravel-mix-code-splitter",
+  "version": "1.0.0",
+  "description": "Laravel Mix Extension Allowing You To Easily Code Split without needing to specify every file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhorton34/laravel-mix-code-splitter.git"
+  },
+  "keywords": [
+    "extension",
+    "mix",
+    "laravel-mix",
+    "laravel",
+    "mix-extension",
+    "laravel-mix-extension",
+    "extend-laravel-mix",
+    "code split",
+    "commands",
+    "from",
+    "js",
+    "node",
+    "artisan",
+    "php",
+    "artisan",
+    "laravel",
+    "code split",
+    "splitter",
+    "code splitting",
+    "split",
+    "extension"
+  ],
+  "author": "Zachary Horton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhorton34/laravel-mix-code-splitter/issues"
+  },
+  "homepage": "https://github.com/zhorton34/laravel-mix-code-splitter#readme"
+}
