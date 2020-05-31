@@ -34,7 +34,7 @@
     "extension"
   ],
   "peerDependencies": {
-    "laravel-mix": "^2.1.7"
+    "laravel-mix": "^4.0.7"
   },
   "author": "Zachary Horton",
   "license": "MIT",
