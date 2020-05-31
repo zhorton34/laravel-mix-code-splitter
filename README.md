@@ -1,7 +1,6 @@
 <img src="https://img.icons8.com/fluent/28/000000/idea.png"></img>
 ![Version](https://img.shields.io/npm/v/laravel-mix-code-splitter.svg?color=success&logo=npm)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?color=success&logo=github)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-[![npm license](https://img.shields.io/npm/l/laravel-mix-code-splitter.svg?color=success)](http://badge.fury.io/js/laravel-mix-code-splitter)
 <img src="https://img.icons8.com/fluent/28/000000/idea.png"></img> 
 
 ---
