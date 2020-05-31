@@ -11,13 +11,13 @@
 ---
 
 
-### <img src="https://img.icons8.com/color/21/000000/npm.png"/> Via NPM
+### <img src="https://img.icons8.com/color/21/000000/npm.png"/>  NPM
 
 ```bash
 npm install --save-dev laravel-mix-code-splitter
 ```
 
-### <img src="https://img.icons8.com/color/21/000000/clew.png"/> Via Yarn
+### <img src="https://img.icons8.com/color/21/000000/clew.png"/> Yarn
 
 ```bash
 yarn add laravel-mix-code-splitter --save
