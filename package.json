@@ -33,7 +33,7 @@
     "split",
     "extension"
   ],
-  "devDependencies": {
+  "dependencies": {
     "laravel-js-str": "^1.0.6"
   },
   "peerDependencies": {
