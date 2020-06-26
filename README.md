@@ -1,22 +1,22 @@
-<img src="https://img.icons8.com/fluent/28/000000/idea.png"></img>
+![Idea](https://img.icons8.com/fluent/28/000000/idea.png)
 ![Version](https://img.shields.io/npm/v/laravel-mix-code-splitter.svg?color=success&logo=npm)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?color=success&logo=github)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-<img src="https://img.icons8.com/fluent/28/000000/idea.png"></img> 
+![Idea](https://img.icons8.com/fluent/28/000000/idea.png)
 
 ---
 
-# <img src="https://img.icons8.com/fluent/38/000000/download.png"/> Install
+# ![Download](https://img.icons8.com/fluent/38/000000/download.png) Install
 
 ---
 
 
-### <img src="https://img.icons8.com/color/21/000000/npm.png"/>  NPM
+### ![Npm](https://img.icons8.com/color/21/000000/npm.png)  NPM
 
 ```bash
 npm install --save-dev laravel-mix-code-splitter
 ```
 
-### <img src="https://img.icons8.com/color/21/000000/clew.png"/> Yarn
+### ![Clew](https://img.icons8.com/color/21/000000/clew.png) Yarn
 
 ```bash
 yarn add laravel-mix-code-splitter --save
@@ -26,7 +26,7 @@ yarn add laravel-mix-code-splitter --save
 
 ---
 
-## <img src="https://img.icons8.com/fluent/42/000000/ok.png"/> Purpose
+## ![Ok](https://img.icons8.com/fluent/42/000000/ok.png) Purpose
 
 ---
 
@@ -40,7 +40,7 @@ yarn add laravel-mix-code-splitter --save
 
 ---
 
-## <img src="https://img.icons8.com/cotton/58/000000/hot-coffee--v1.png"/> Laravel Mix Code Splitter
+## ![Hot Coffee](https://img.icons8.com/cotton/58/000000/hot-coffee--v1.png) Laravel Mix Code Splitter
 
 ---
 
@@ -216,5 +216,3 @@ mix
 
 // etc...
 ```
-
-
