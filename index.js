@@ -1,11 +1,12 @@
 let fs = require('fs');
+const path = require('path');
 let mix = require('laravel-mix')
 let { Str } = require('laravel-js-str')
 
 const str = value => Str.of(value);
 
 const CollectFiles = (folder, files = []) => {
-    const isFolder = to => new File(path.resolve(to)).isDirectory();
+    const isFolder = to => fs.lstatSync(path.resolve(to)).isDirectory()
     const CombineFiles = (Files, Segments = []) => [ ...Files, path.join(Mix.paths.rootPath, Segments[0], '/', Segments[1])];
 
     return fs.readdirSync(folder).reduce((list, file, index, original) =>
@@ -15,6 +16,7 @@ const CollectFiles = (folder, files = []) => {
         files
     );
 };
+
 
 /**
  * Compile Each File In A Directory To It's Own File without needing to individually list each one off 
